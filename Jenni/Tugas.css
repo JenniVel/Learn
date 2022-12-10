@@ -1,0 +1,9 @@
+*{
+    background-color: antiquewhite;
+}
+.tombol a button {
+    font-size: 80%;
+    margin-left:45%;
+    margin-right: 45%;
+    background-color: blue;
+}
