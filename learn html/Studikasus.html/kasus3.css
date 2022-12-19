@@ -1,0 +1,19 @@
+*{
+    background-color: azure;
+}
+header{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: aqua;
+}
+.arah{
+    background-color : aqua;
+    width: 100px;
+    height: 100px;
+}
+.nav menu {
+    background-color: brown;
+    list-style-type: none;
+    margin-right: 20px;
+    position: sticky;
+ }
