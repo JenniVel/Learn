@@ -1,0 +1,35 @@
+* {
+  margin:0; padding:0; border:0;
+  box-sizing:border-box;
+}
+html, body { height:100%; }
+body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background:#000;
+  color:#fff;
+  font-family:arial;
+}
+[game] > div {
+  margin:5px 0;
+}
+h1 {
+  margin-bottom:20px;
+}
+[progress-soal] {
+  font-size:15px;
+}
+[quis-soal] {
+  font-size:25px;
+}
+[jawab-soal] {
+  width:400px;
+  padding:5px 10px;
+}
+button {
+  padding:5px 10px;
+  background:#07c;
+  font-weight:bold;
+}
