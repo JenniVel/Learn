@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //variable
+    let a = 5; //global scope samo local scope
+    a = 10;
+    var b = 5; //dak biso global scope samo local scope
+    b = 15;
+    const c = 5; // tidak bisa diubah valuenya
+    // let
+    for(i = 0; i<a; i++){
+      document.writeln(i);      
+    }
+    document.writeln('<br>');
+    document.writeln(a);
+    document.writeln('<br>');
+    //var
+    for(i=0; i<b; i++){
+      document.writeln(i);
+    }
+    document.writeln('<br>');
+    document.writeln(b);
+    document.writeln('<br>');
+    //const
+    for(i=0; i<c;i++){
+      document.writeln(i);
+    }
+    document.writeln('<br>');
+    document.writeln(c);
+    document.writeln('<br>');
+    for(let a = 0; a < 10; a++){
+      document.writeln(`local ${a}`);
+    }
+    document.writeln('<br>');
+    document.writeln(`global ${a}`);
+    document.writeln('<br>');
+
+    for(var b = 0; b <20; b++){
+      document.writeln(`local ${b}`);
+    }
+    document.writeln('<br>');
+    document.writeln(`global ${b}`);
+    document.writeln('<br>');
+
+    for(const c = 0; c <20; c++){
+      document.writeln(`local ${c}`);
+    }    
+    document.writeln('<br>');
+    document.writeln(`global ${c}`);
+  </script>
+</body>
+</html>
