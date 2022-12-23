@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let a = [];
+    let b = ['Ucok', 'Ani', 'Budi', 9, true];
+    console.table(b);
+
+    b.push("MW");
+    console.table(b);
+
+    b[3]="Aci"; //update
+    console.table(b);
+    console.table(b.length);
+
+    delete b [3];
+    console.table(b);
+
+    //push untuk memasukan index yang terbaru
+    b.push("Kasdi");
+    console.table(b);
+    b[3]="Estri";
+    console.table(b);
+    console.table(b.length);
+    console.table(b[4]);
+    // array 2 dimensi
+    b.push(["Ucok", 90, true, false]);
+    console.table(b);
+    // array 3 dimensi
+    b.push([["Ani", 90, 'halo']]);
+    console.table(b);
+    // array 2 dimensi
+    b.push(['90','100','85',100,100,100]);
+    console.table(b);
+    console.table(b[8]);
+    console.table(b[9]);
+    // array 4 dimensi
+    b.push([[["Ucok", 9, 1, 3, 4]]])
+    console.table(b);
+    console.table(b[10]);
+    console.table(b[10][0]);
+    // array 5 dimensi
+    b.push([[[["ucok", 9, 8, 7, 6, 5]]]]);
+    console.table(b);
+    console.table(b[11]);
+    console.table(b[11][0][0]);
+    // array 6 dimensi
+    b.push([[[[["Ucok",9,9,9,9,9,9,9,9]]]]]);
+    console.table(b);
+    console.table(b[12]);
+    console.table(b[12][0][0][0]);
+    // array 7 dimensi
+    b.push([[[[[["ucok",8,8,8,88,8,8,8,8]]]]]]);
+    console.table(b);
+    console.table(b[13]);
+    console.table(b[13][0][0][0][0]);
+    // array 8 dimensi
+    b.push([[[[[[["Ucok", 9,9,9,9,9,9,99,9,9,9,]]]]]]]);
+    console.table(b);
+    console.table(b[14]);
+    console.table(b[14][0][0][0][0][0]);
+    // array 9 dimensi
+    b.push([[[[[[[["Ucok", 7,7,7,7,7,7,7,7,7,7,7,7,7,]]]]]]]]);
+    console.table(b);
+    console.table(b[15]);
+    console.table(b[15][0][0][0][0][0][0])
+    // array 10 dimensi
+    b.push([[[[[[[[["Ucok", 5,5,5,5,5,5,5,5,5,5,]]]]]]]]]);
+    console.table(b);
+    console.table(b[16]);
+    console.table(b[16][0][0][0][0][0][0][0]);
+  </script>
+</body>
+</html>
