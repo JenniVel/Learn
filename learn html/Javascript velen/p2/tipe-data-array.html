@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let a = ['Jennifer', 'Velensia', 'Santoti'];
+    console.table(a);
+
+    a [1] = 'ucok';
+    console.table(a);
+
+    delete a [1];
+    console.table(a);
+    console.table(a.length);
+
+    a [1] = 'Velensia';
+    console.table(a);
+
+    a.push(9);
+    console.table(a);
+    console.table(a[1]);
+
+    a.push([2,2,2,2,2]);
+    console.table(a);
+    a.push([[2,2,2,2,2,2,2]]);
+    console.table(a[5]);
+    a.push([[[2,2,2,2,2,2,2]]]);
+    console.table(a[6][0]);
+    a.push([[[[2,2,2,2,2,2,2,2,2,2]]]]);
+    console.table(a[7][0][0]);
+    
+  </script>
+</body>
+</html>
