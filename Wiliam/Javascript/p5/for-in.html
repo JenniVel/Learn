@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //object
+    let name = {
+      firstName: 'Jennifer',
+      middleName: 'Velensia',
+      lastName: 'Santoti'
+    }
+    for(const property in name){
+      document.writeln(`<p> ${property} : ${name[property]}</p>`)
+    }
+
+    //array
+    let Nilai = [9, 10, 12];
+    for(const index in Nilai){
+      document.writeln(`<p> ${index} : ${Nilai[index]}</p>`)
+    }
+  </script>
+</body>
+</html>
