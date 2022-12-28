@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // let parameter = {};
+
+    // document.writeln(parameter.nama.country);
+
+    // let person = {};
+    // let say;
+    // if(person.address !== undefined && person.address !== null){
+    //   say = person.address.country;
+    // }
+
+    // document.writeln(say);
+
+    let person = {
+      address:{
+        country: '+62'
+      },
+      name:{
+        "Nama lengkap": 'MW'
+      }
+    }
+    document.writeln(person?.address?.country);
+    console.table(person.name["Nama lengkap"]);
+  </script>
+</body>
+</html>
