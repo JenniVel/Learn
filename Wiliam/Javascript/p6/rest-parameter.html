@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function Nilai(nama, ...nilai){
+      let total = 0;
+      for (const item of nilai) {
+        total += item;
+      }
+      console.info(`Total ${nama} is ${total}`)
+    }
+    let array = [9, 10,20,30,40,50];
+    Nilai('Velen', ...array);
+    Nilai('Velen', ...[9,10,11,12,13]);
+
+    function Lama(){
+      let total = 0;
+      for (const item of arguments) {
+        total += item;
+      }
+      console.info(`Total is  ${total}`);
+    }
+
+    Lama(3,3,3,4,4,56,67,7,3,36,3,3);
+  </script>
+</body>
+</html>

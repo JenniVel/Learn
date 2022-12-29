@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function sayHello(firstName, middleName, lastName){
+      let say = `Hai ${firstName} ${middleName} ${lastName}`;
+      return say;
+    }
+
+    let result = sayHello('Jennifer', 'Velensia', 'Santoti');
+    document.writeln(`<p>${result}</p>`);
+
+    function Nilai(value){
+      if(value > 90){
+        return "A";
+      } else if (value > 80){
+        return "B";
+      } else if (value > 70){
+        return "C";
+      } else if (value > 60) {
+        return "D";
+      } else {
+        return "E";
+      }
+    }
+    document.writeln(Nilai(81));
+
+    function isContains(array, searchValue){
+      for (const element of array) {
+        if(element === searchValue){
+          return true;
+        }        
+      }
+      return false;
+    }    
+
+    console.info(isContains([9,9,9,9,9,10,8,7,6,5,4], 8));
+    console.info(isContains([9,8,6,5,4,3,2,1], 0));
+    let a = [9,9,9,9,10,11,12];
+    console.info(isContains(a,12));
+
+    let array = [9,8,7,6,5,4,3,2,1];
+    let search = 43;
+    const found = isContains(array,search);
+    console.info(found);
+  </script>
+</body>
+</html>
