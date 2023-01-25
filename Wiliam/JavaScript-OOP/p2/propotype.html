@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function Velen(firstName, middleName, lastName){
+      this.first = firstName;
+      this.middle = middleName;
+      this.last = lastName;
+      return console.info(`Hi my name is ${firstName} ${middleName} ${lastName}`);
+    }
+
+    Velen('Jennifer', 'Velensia', 'Santoti');
+    const name = new Velen();
+    console.info(name);
+
+    function Person(firstName, lastName){
+      this.first = firstName;
+      this.last = lastName;
+      this.SayHello = function(name){
+        console.info(`Hello ${first}, my name is ${name}`)
+      }
+    }
+
+    const b = new Person('William', 'Tanuwijaya');
+    b.SayHello('Velen');
+    b.alamat = 'Prabu'
+    
+
+    Person.prototype.Will = function(nama){
+      console.info(`Hai ${nama}`);
+    }
+    console.info(b);
+  </script>
+</body>
+</html>
