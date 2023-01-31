@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul id="menu">
+    <li id="first">first</li>
+    <li id="second">second</li>
+    <li id="third">third</li>
+  </ul>
+  <script>
+    // const menu = document.getElementById('menu');
+    // menu.removeChild(document.getElementById('first'));
+    // menu.removeChild(document.getElementById('second'));
+    // menu.removeChild(document.getElementById('third'));
+    // menu.appendChild(document.getElementById('first'));
+    // const first = document.getElementById('first').innerHTML = '<p>'
+    // document.getElementById('second').innerText = 'velen';
+
+    const content = document.getElementById('menu');
+    
+    const title = document.createElement('p');
+    title.textContent = 'HALO VELEN';
+    content.appendChild(title);
+    
+  </script>
+</body>
+</html>
