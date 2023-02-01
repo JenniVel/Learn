@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <img id="logo">
+  <script>
+    const logo = document.getElementById('logo');
+    const src = document.createAttribute('src');
+    src.value = 'https://help.dicoding.com/wp-content/uploads/2021/01/dicoding-edit-1.jpg';
+
+    logo.setAttributeNode(src);
+  </script>
+</body>
+</html>
