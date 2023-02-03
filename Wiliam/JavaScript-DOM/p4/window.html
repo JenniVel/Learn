@@ -8,12 +8,17 @@
 </head>
 <body>
   <p id="content"></p>
+  <p id="location"></p>
   <script>
     const content = document.getElementById('content');
+    const homes = document.getElementById('location');
+
     const height = window.screen.height;
     const width = window.screen.width;
+    const url = window.location;
 
     content.innerText = `Window width (${width}) x height (${height})`;
+    homes.textContent = url;
   </script>
 </body>
 </html>
