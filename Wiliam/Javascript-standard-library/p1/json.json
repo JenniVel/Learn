@@ -1,0 +1,10 @@
+{ 
+  "firstName": "Jennifer", 
+  "middleName": "Velensia", 
+  "lastName": "Santoti", 
+  "address": 
+  { 
+    "country": "Indonesia", 
+    "city": "Prabumulih" 
+    } 
+  }
