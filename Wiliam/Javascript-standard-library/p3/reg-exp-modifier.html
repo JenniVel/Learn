@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const name = "Jennifer Velensia Santoti\nJennifer Santoti\nJennifer Velensia";
+    const regex1 = /Jennifer/g
+    const regex2 = /Velensia/ig
+    const regex3 = /Santoti/igm
+
+    let result;
+    while((result = regex1.exec(name)) !== null){
+      console.info(result);
+    }
+
+    while((result = regex2.exec(name)) !== null){
+      console.info(result);
+    }
+
+    while((result = regex3.exec(name)) !== null){
+      console.info(result);
+    }
+  </script>
+</body>
+</html>
