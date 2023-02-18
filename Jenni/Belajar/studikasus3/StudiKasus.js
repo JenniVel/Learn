@@ -3,8 +3,8 @@ let soal = null
 let score = null
 let total = null
 
-//Mengambil element yang ada di html
-//parameter String
+    //Mengambil element yang ada di html
+    //parameter String
 
 el = function (str){
     //Untuk menampilkan hasil html di consule
@@ -21,7 +21,7 @@ acaksoal= function (){
  let b = Math.floor(Math.random()*10)+1
  hasil = a+b
 
- //penggunaan document.getelemetbyid itu berfungsi kita bisa mengambil div di html mana yang jsnya taruh
+    //penggunaan document.getelemetbyid itu berfungsi kita bisa mengambil div di html mana yang jsnya taruh
     el("[proses]").innerHTML = `${soal}/ ${total} Soal`
     el("[quiz]").innerHTML = `Hasil dari ${a} + ${b}`
 }
