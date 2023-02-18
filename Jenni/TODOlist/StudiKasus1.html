@@ -52,7 +52,7 @@
         todolist.splice(index,1)
         displayTodolist()
     }
-    function addTodolist(index, todo){
+    function addTodolist(index,todo){
             const tr = document.createElement('tr')
             const tdButton = document.createElement('td')
             tr.appendChild(tdButton)
@@ -61,7 +61,7 @@
             buttonDone.type = 'button'
             buttonDone.value = 'Done'
             buttonDone.onclick = function(){
-                removeTodoList(index)
+                removeTodoList(index);
             }
             tdButton.appendChild(buttonDone);
    
@@ -79,7 +79,7 @@
 
         const searchText = document.getElementById('search').value.toLowerCase();
         if (todo.toLowerCase().includes(searchText)){
-            addTodolist(todo);
+            addTodolist(i, todo);
             }
         }
     }
