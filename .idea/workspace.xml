@@ -47,6 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Wiliam/Javascript-standard-library/p1" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -125,6 +126,7 @@
       <updated>1675421934103</updated>
       <workItem from="1675762398153" duration="2353000" />
       <workItem from="1676541841323" duration="376000" />
+      <workItem from="1676705153681" duration="8220000" />
     </task>
     <servers />
   </component>
