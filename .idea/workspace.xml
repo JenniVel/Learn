@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ebbfc812-4c31-45fe-99bd-b8a6d576b0b5" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="ebbfc812-4c31-45fe-99bd-b8a6d576b0b5" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/Wiliam/JavaScript-Async/p3/Upload-File-dengan-AJAX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> 9eb5203fc46c0b8539ca41fa2bcc2ddb8a1fe843
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> f76f67fe1cf631a1292f4b424217632304e3a8e4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
@@ -48,6 +73,7 @@
     "last_opened_file_path": "C:/Users/Jonathan/Downloads/Learn"
   }
 }]]></component>
+>>>>>>> 9eb5203fc46c0b8539ca41fa2bcc2ddb8a1fe843
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\VELEN\Learn\Wiliam\Javascript-standard-library\p1" />
@@ -102,7 +128,15 @@
       <workItem from="1676541841323" duration="376000" />
       <workItem from="1676705153681" duration="8431000" />
       <workItem from="1677124259285" duration="13000" />
+<<<<<<< HEAD
       <workItem from="1678281985820" duration="1921000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1678322947421" duration="221000" />
+=======
+      <workItem from="1678281985820" duration="1864000" />
+>>>>>>> 9eb5203fc46c0b8539ca41fa2bcc2ddb8a1fe843
+>>>>>>> f76f67fe1cf631a1292f4b424217632304e3a8e4
     </task>
     <servers />
   </component>
@@ -119,5 +153,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
