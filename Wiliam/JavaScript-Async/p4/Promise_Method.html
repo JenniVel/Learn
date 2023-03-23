@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>Nama:</td>
+          <td id="nama"></td>
+        </tr>
+        <tr>
+          <td>Umur:</td>
+          <td id="umur"></td>
+        </tr>
+        <tr>
+          <td>Alamat:</td>
+          <td id="alamat"></td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      function getProduct(products) {
+        return new Promise(function (resolve, reject) {
+          const ajax = new XMLHttpRequest();
+          ajax.open("GET", `./api/${products}.json`);
+          ajax.onload = function () {
+            if (ajax.status == 200) {
+              resolve(JSON.parse(ajax.responseText));
+            } else {
+              reject(ajax.status);
+            }
+          };
+          ajax.send();
+        });
+      }
+    //   getProduct()
+    //     .then(function (response) {
+    //       return response;
+    //     })
+    //     .then(function (json) {
+    //       document.getElementById("nama").textContent = json.nama;
+    //       document.getElementById("umur").textContent = json.umur;
+    //       document.getElementById("alamat").textContent = json.alamat;
+    //     })
+    //     .catch(function (error) {
+    //       document.getElementById("nama").textContent = error;
+    //       document.getElementById("umur").textContent = error;
+    //       document.getElementById("alamat").textContent = error;
+    //     });
+        const response = Promise.all([
+            getProduct('velen'),
+            getProduct('william')
+        ]);
+        response.then(function(products){
+            console.info(products);
+        });
+        response
+    </script>
+  </body>
+</html>
