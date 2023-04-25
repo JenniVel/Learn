@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const a = prompt('Masukkan nilai A');
+    const b = prompt('Masukkan Nilai B');
+    const d = Number(a); 
+    const e = Number(b);  //Memeriksa apakah a dan b itu berupa huruf atau bukan 
+                          //Jika bukan maka nilai d tidak menyimpan nilai a
+    document.writeln(`Hasil dari nilai A dan B jika dikalikan adalah ` + (d * e));
+    document.write('<br>');
+    document.writeln(`Hasil dari nilai A dan B jika ditambah adalah ` + (d + e));
+    document.write('<br>');
+    document.writeln(`Hasil dari nilai A dan B jika dibagi adalah ` + (d / e));
+
+  </script>
+</body>
+</html>

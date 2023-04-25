@@ -18,7 +18,13 @@ h1{
     height: 50px;
     border: 2px solid black;
 }
-
+.a{
+    color: #de65de;
+   text-decoration: none;
+}
+body{
+    background-image: url(https://asset.kompas.com/crops/mTnVdoYXCoN9ElxrsEDbdoY7y0s=/65x65:865x599/750x500/data/photo/2017/06/28/1265845835.jpg);
+}
 #LANJUT a button {
     font-size: 80%;
     margin-left:45%;

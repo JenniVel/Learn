@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .kotak {
+        width: 100px;
+        height: 100px;
+        background-color: salmon;
+        transition: all 1s; /* Efek Transis */
+      }
+      .container:hover .kotak { /* hover = fungsi yang hanya berjalan apabila kursor berada diatas suatu objek tertentu.*/
+        transform: rotate(720deg); /*transform = untuk merubah bentuk suatu objek seperti memutar,memindahkan*/
+        margin-left: 800px;
+        background-color: royalblue;
+      }
+    </style>
+  </head>
+  <body bgcolor="#EFFACD">
+    <table>
+      <tr>
+        <td><img src="https://mdp.ac.id/mdp2020/wp-content/uploads/2021/07/logo-umdp-1-300x248-2.png" width="300" height="250" alt="" /></td>
+        <td><img src="https://mdp.ac.id/mdp2020/wp-content/uploads/2021/07/logo-umdp-1-300x248-2.png" width="300" height="250" alt="" /></td>
+      </tr>
+      <tr>
+        <td><img src="https://mdp.ac.id/mdp2020/wp-content/uploads/2021/07/logo-umdp-1-300x248-2.png" width="300" height="250" alt="" /></td>
+        <td><img src="https://mdp.ac.id/mdp2020/wp-content/uploads/2021/07/logo-umdp-1-300x248-2.png" width="300" height="250" alt="" /></td>
+      </tr>
+    </table>
+    <div class="container"><div class="kotak"></div></div>
+  </body>
+</html>

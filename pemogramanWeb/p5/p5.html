@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /*Untuk Semua yang ada di html*/
+      * {
+        margin: 0; /*mengatur jarak elemen HTML. rumus : margin: atas kanan bawah kiri;*/
+        padding: 0; /*spasi atau ruang di dalam tag HTML. rumus : padding: atas kanan bawah kiri; */
+        font-family: Arial, Helvetica, sans-serif; /*jenis teks*/
+      }
+
+      body { 
+        background-image: url(./Screenshot\ 2023-03-06\ 220913.png); /*Latar belakang gambar*/
+      }
+
+      table {
+        width: 35%; /*Panjang ukuran 35% dari tampilan*/
+        text-align: center; /*Text berada di tengah*/
+        background-color: white;
+        color: black;
+      }
+
+      h1 {
+        color: white;
+        -webkit-text-stroke: 1px; 
+        -webkit-text-stroke-color: black; 
+        text-shadow: 1px 2px black; /*efek shadow pada teks. rumus : text-shadow: x y blur warna */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pembuatan tabel css</h1>
+    <table border="1">
+      <center>
+        <h1>DATA MAHASISWA INFORMATIKA</h1>
+        <hr width="45%" />
+      </center>
+      <br /><br />
+      <tr>
+        <th>No</th>
+        <th>Semester</th>
+        <th>Jumlah</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>125</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>4</td>
+        <td>105</td>
+      </tr>
+      <tr>
+        <td style="color: rgb(255, 0, 0);">3</td>
+        <td>6</td>
+        <td>115</td>
+      </tr>
+    </table>
+  </body>
+</html>
