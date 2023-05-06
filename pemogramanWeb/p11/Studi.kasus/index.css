@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://blog.tiket.com/wp-content/uploads/7-Fakta-Kota-Jakarta-Yang-Berulang-Tahun-Ke-492-Kota-yang-Memiliki-Banyak-Gedung-Pencakar-Langit-1.jpg');
+    
+    /*HARUS ADA YANG BACKGROUND*/   
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .background {
+    position: relative; /*Ini gambarnya menyesuaikan layar*/
+    height: 100vh;
+  }
+  .jumbroton {
+    position: absolute; /*Membuat formnya ke tengah*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: skyblue;
+    margin: 20px 0;
+  }
+  label {
+    color: white;
+    font-size: 120%;
+  }
+  input[type='text'],
+  input[type='password'] {
+    /*Ditambahkan untuk membuat inputnya transparan*/
+    background: transparent;
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    /*Garis tepi pada input di hilangkan*/
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+    /*warna pada input garis bawah*/
+    border-bottom-color: skyblue;
+
+    /*Kita input data warnanya menjadi putih*/
+    -webkit-text-fill-color: white;
+    font-size: large;
+
+    /*Saat di klik masih ada tepi datanya sehingga kita
+    menggunakan outline untuk menghilangkannya*/
+    /*HUKUMNYA WAJIB*/
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    /**/
+    cursor: default;
+    
+  }
+  input[type='submit'] {
+    background-color: skyblue;
+    color: white;
+
+    /*Tidak ada garis tepi pada button*/
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+    /*Waktu kursur diarahkan dia akan berjalan 0,3 s
+    maka hover akan berkerja*/
+    transition: all 0.3s ease-in-out;
+    margin-left: 21.2%;
+    width: 55%;  
+  }
+  input[type='submit']:hover {
+    background-color: white;
+    color: skyblue;
+  }
+  
+  /*kita menambahkan img ini sesuaikan dengan posisi formnya*/
+  img {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translateY(-50%);
+    width: 20%;
+  }
+  
+ /*Sesuai tampilan dengan tempat media seperti handpone dan lainnya*/
+  @media screen and (max-width: 768px) {
+    .jumbroton {
+      width: 90%;
+      max-width: 600px;
+    }
+    img {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .jumbroton {
+      width: 90%;
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    img {
+      width: 80%;
+    }
+    .jumbroton {
+      margin-top: 100px;
+    }
+  }
