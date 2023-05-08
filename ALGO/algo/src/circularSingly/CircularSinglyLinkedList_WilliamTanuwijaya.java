@@ -1,8 +1,8 @@
 package circularSingly;
 
 class Node {
-    int data;
-    Node pointer;
+    private int data;
+    private Node pointer;
 
     public Node() {
         this.data = 0;
@@ -100,6 +100,57 @@ class Operasi {
         size++;
     }
 
+    public void insert_posisi(int x, int posisi) {
+        Node ptr = new Node(x, null);
+        Node nptr = awal;
+        posisi = posisi - 1;
+        for (int i = 1; i < size - 1; i++) {
+            if (i == posisi) {
+                Node temp = nptr.getPointer();
+                nptr.setPointer(ptr);
+                ptr.setPointer(temp);
+                break;
+            }
+        }
+    }
+
+    public void delete_posisi(int posisi) {
+        if (isEmpty()) {
+            System.out.println("Tidak ada ada");
+        } else if (size == 1 && posisi == 1) {
+            awal = null;
+            akhir = null;
+            size = 0;
+        } else if (posisi == 1) {
+            awal = awal.getPointer();
+            akhir.setPointer(awal);
+            size--;
+        } else if (posisi == size) {
+            Node a = awal;
+            Node b = awal;
+            while (a != akhir) {
+                b = a;
+                a = a.getPointer();
+
+            }
+            akhir = b;
+            akhir.setPointer(awal);
+            size--;
+        } else {
+            Node ptr = awal;
+            posisi = posisi - 1;
+            for (int i = 1; i < size - 1; i++) {
+                if (i == posisi) {
+                    Node temp = ptr.getPointer();
+                    temp = temp.getPointer();
+                    ptr.setPointer(temp);
+                    break;
+                }
+                ptr = ptr.getPointer();
+            }
+        }
+    }
+
     public void tampil() {
         System.out.println("data Singly Linked List = ");
         if (isEmpty()) {
@@ -130,6 +181,10 @@ public class CircularSinglyLinkedList_WilliamTanuwijaya {
         op.insert_awal(20);
         op.tampil();
         op.insert_akhir(100);
+        op.tampil();
+        op.insert_posisi(200, 2);
+        op.tampil();
+        op.delete_posisi(2);
         op.tampil();
     }
 
