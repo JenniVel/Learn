@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CircularSinglyLinkedList_WilliamTanuwijaya",
+            "request": "launch",
+            "mainClass": "circularSingly.CircularSinglyLinkedList_WilliamTanuwijaya",
+            "projectName": "Learn_44481049"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
