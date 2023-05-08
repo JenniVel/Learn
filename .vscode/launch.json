@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CircularDoublyLinkedList_WilliamTanuwijaya",
+            "request": "launch",
+            "mainClass": "circularSingly.CircularDoublyLinkedList_WilliamTanuwijaya",
+            "projectName": "Learn_44481049"
+        },
+        {
+            "type": "java",
             "name": "CircularSinglyLinkedList_WilliamTanuwijaya",
             "request": "launch",
             "mainClass": "circularSingly.CircularSinglyLinkedList_WilliamTanuwijaya",
