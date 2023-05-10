@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GradientExample",
+            "request": "launch",
+            "mainClass": "if2a.GradientExample",
+            "projectName": "Learn_44481049"
+        },
+        {
+            "type": "java",
+            "name": "WilliamTanuwijaya_2226250012",
+            "request": "launch",
+            "mainClass": "if2a.WilliamTanuwijaya_2226250012",
+            "projectName": "Learn_44481049"
+        },
+        {
+            "type": "java",
             "name": "CircularDoublyLinkedList_WilliamTanuwijaya",
             "request": "launch",
             "mainClass": "circularSingly.CircularDoublyLinkedList_WilliamTanuwijaya",
