@@ -1,0 +1,16 @@
+{
+  "name": "velen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "velenn"
+  ],
+  "author": "William Tanuwijaya",
+  "license": "ISC",
+  "type": "module"
+}
