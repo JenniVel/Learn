@@ -37,8 +37,6 @@ db.connect((err) => {
       res.redirect('/');
     });
   });
-});
-
-app.listen(8000, () => {
+}).listen(8000, () => {
   console.log('server ready...');
 });
