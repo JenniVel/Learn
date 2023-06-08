@@ -1,0 +1,18 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "VELEN" : "node index.js",
+    "prestart": "echo 'Application Before Start'",
+    "start": "node index.js",
+    "poststart": "echo 'Application After Start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "William Tanuwijaya",
+  "license": "ISC"
+}
