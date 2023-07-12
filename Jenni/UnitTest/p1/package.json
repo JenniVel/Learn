@@ -1,0 +1,14 @@
+{
+  "name": "p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/sum.js",
+  "scripts": {
+    "Velen": "jest"
+  },
+  "author": "Jenni",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
