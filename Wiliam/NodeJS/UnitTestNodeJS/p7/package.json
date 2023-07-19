@@ -1,0 +1,36 @@
+{
+  "name": "p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "maxConcurrent": 1,
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./src/**/*.js"
+    ],
+    "coverageTheshold":{
+      "global":{
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements":100
+      }
+    }
+  },
+  "author": "William Tanuwijaya",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1"
+  }
+}
